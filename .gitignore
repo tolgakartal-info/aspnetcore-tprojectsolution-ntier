@@ -1,0 +1,35 @@
+## Basic Source Control Ignores
+# Core Build Results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio Working Files and Cache
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider & Resharper
+.idea/
+*.sln.iml
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## .NET Core Specifics
+# User-secrets
+secrets.json
+
+# Auto-generated assembly attributes (Sürekli değişen hashlerin kaynağı)
+**/[Aa]ssembly*/
+Properties/AssemblyInfo.cs
+
+# Backup and Publishing outputs
+*.publishsettings
+*.pubxml
+*.pubxml.user
